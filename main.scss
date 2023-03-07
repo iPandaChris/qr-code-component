@@ -1,0 +1,49 @@
+@import"__root";
+
+p{
+    font-size: 15px;
+    color: $Grayishblue;
+}
+
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    &__card{
+        background-color: $white;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        border-radius: 5%;
+        padding: 15px;
+    }
+
+    &__image{
+        width: 256px;
+        height: 250px;
+        border-radius: 5%;
+    }
+
+    &__text h3{
+        color: $Darkblue;
+    }
+
+}
+
+.attribution{
+    font-size: 11px;
+    color:$Grayishblue;
+    text-align: center;
+    padding: 13px;
+}
+
+.attribution a{
+    color:$blue;
+}
+
+ 
+.attribution .name:hover{
+    color: red
+}

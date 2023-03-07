@@ -1,0 +1,21 @@
+$font: Outfit url(https://fonts.google.com/specimen/Outfit);
+
+// Color
+$white: hsl(0, 0%, 100%);
+$grey: hsl(212, 45%, 89%);
+$Grayishblue: hsl(220, 15%, 55%);
+$Darkblue: hsl(218, 44%, 22%);
+$blue:hsl(228, 45%, 44%);
+
+
+
+body {
+    background-color:$grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.qr__card {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  border-radius: 5%;
+  padding: 15px;
+}
+.qr__image {
+  width: 256px;
+  height: 250px;
+  border-radius: 5%;
+}
+.qr__text h3 {
+  color: hsl(218, 44%, 22%);
+}
+
+.attribution {
+  font-size: 11px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  padding: 13px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution .name:hover {
+  color: red;
+}/*# sourceMappingURL=main.css.map */
